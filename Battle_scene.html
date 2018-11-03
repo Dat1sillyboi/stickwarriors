@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title>Battle Scene</title>
+	<style>
+		#healthbar {
+			width: 150px;
+			height: 12px;
+			background-color: red;
+		}
+		
+		#space {
+			width: 500px;	
+		}
+		#dragon_healthbar {
+			width: 180px;
+			height: 12px;
+			background-color: red;
+		}
+		
+		#attack_button {
+			width: 150px;
+			padding: 10px;
+			background-color: orange;
+		}
+		
+		#mega-attack_button {
+			width: 150px;
+			padding: 10px;
+			background-color: green;
+		}
+		
+		#defend_button {
+			width: 150px;
+			padding: 10px;
+			background-color: brown;
+		}
+		
+		#retreat_button {
+			width: 150px;
+			padding: 10px;
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+<center>
+    <font color="Red"><h1>BATTLE!</h1></font>
+
+    <table border="0">
+		<!-- Names -->
+    <tr>
+    	<td>Stickname</td>
+		<td></td>
+		<td>Dragon</td>
+    </tr>
+	<!-- Health -->
+	<tr>
+		<td><div id="healthbar"></div></td>
+		<td><div id="space"></div></td>
+		<td><div id="dragon_healthbar"></div></td>
+	</tr>
+	<!-- Images -->
+    <tr>
+    	<td><img src="pictures/Player.png"></td>
+		<td></td>
+		<td><img src="pictures/Dragon.png"></td>
+    </tr>
+	
+	<!-- Actions -->
+	<tr>
+		<td><button id="attack_button">Attack</button>
+		<button id="mega-attack_button">Mega-Attack</button>
+		<button id="defend_button">Defend</button>
+		<button id="retreat_button">Retreat</button></td>
+		
+		<td>
+			<p>You encounter a Dragon lv 10</p>
+			<p>You attack the dragon but <i>miss</i></p>
+			<p>You rage quit<p>
+		</td>
+	</tr>
+
+ 
+    </table><br>
+	
+</center>
+</body>
+</html>
